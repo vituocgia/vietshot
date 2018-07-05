@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<language>
+	<resources prefix="GooglePhotos">
+		<resource name="communication_wait">Обмен данными с Google Photos. Подождите...</resource>
+		<resource name="Configure">Настройка Google Photos</resource>
+		<resource name="label_AfterUpload">После загрузки</resource>
+		<resource name="label_AfterUploadLinkToClipBoard">Ссылки в буфер обмена</resource>
+		<resource name="settings_title">Настройки Google Photos</resource>
+		<resource name="upload_failure">Произошла ошибка при загрузке на Google Photos:</resource>
+		<resource name="upload_menu_item">Загрузить на Google Photos</resource>
+		<resource name="upload_success">Изображение успешно загружено на Google Photos!</resource>
+	</resources>
+</language>

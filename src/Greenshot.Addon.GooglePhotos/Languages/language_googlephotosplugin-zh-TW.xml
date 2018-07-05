@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<language>
+	<resources prefix="GooglePhotos">
+		<resource name="communication_wait">正在與 Google Photos 通訊，請稍候...</resource>
+		<resource name="Configure">組態 Google Photos</resource>
+		<resource name="label_AfterUpload">上傳後</resource>
+		<resource name="label_AfterUploadLinkToClipBoard">連結到剪貼簿</resource>
+		<resource name="settings_title">Google Photos 設定</resource>
+		<resource name="upload_failure">上傳到 Google Photos 時發生錯誤:</resource>
+		<resource name="upload_menu_item">上傳到 Google Photos</resource>
+		<resource name="upload_success">上傳圖片到 Google Photos 成功!</resource>
+	</resources>
+</language>

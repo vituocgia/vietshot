@@ -1,0 +1,264 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <Import Project="..\CommonProject.properties" />
+  <PropertyGroup>
+    <ProjectGuid>{92599C09-FF29-4ABD-B6E6-C48ECD781BAB}</ProjectGuid>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Greenshot.Addon.Office</RootNamespace>
+    <AssemblyName>Greenshot.Addon.Office</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+    <NoStdLib>False</NoStdLib>
+    <WarningLevel>4</WarningLevel>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Autofac, Version=4.8.1.0, Culture=neutral, PublicKeyToken=17863af14b0044da, processorArchitecture=MSIL">
+      <HintPath>..\packages\Autofac.4.8.1\lib\net45\Autofac.dll</HintPath>
+    </Reference>
+    <Reference Include="Autofac.Extras.AttributeMetadata, Version=4.0.0.0, Culture=neutral, PublicKeyToken=17863af14b0044da, processorArchitecture=MSIL">
+      <HintPath>..\packages\Autofac.Extras.AttributeMetadata.4.0.1\lib\net45\Autofac.Extras.AttributeMetadata.dll</HintPath>
+    </Reference>
+    <Reference Include="Autofac.Integration.Mef, Version=4.0.0.0, Culture=neutral, PublicKeyToken=17863af14b0044da, processorArchitecture=MSIL">
+      <HintPath>..\packages\Autofac.Mef.4.0.0\lib\net45\Autofac.Integration.Mef.dll</HintPath>
+    </Reference>
+    <Reference Include="Caliburn.Micro, Version=3.2.0.0, Culture=neutral, PublicKeyToken=8e5891231f2ed21f, processorArchitecture=MSIL">
+      <HintPath>..\packages\Caliburn.Micro.Core.3.2.0\lib\net45\Caliburn.Micro.dll</HintPath>
+    </Reference>
+    <Reference Include="Caliburn.Micro.Platform, Version=3.2.0.0, Culture=neutral, PublicKeyToken=8e5891231f2ed21f, processorArchitecture=MSIL">
+      <HintPath>..\packages\Caliburn.Micro.3.2.0\lib\net45\Caliburn.Micro.Platform.dll</HintPath>
+    </Reference>
+    <Reference Include="Caliburn.Micro.Platform.Core, Version=3.2.0.0, Culture=neutral, PublicKeyToken=8e5891231f2ed21f, processorArchitecture=MSIL">
+      <HintPath>..\packages\Caliburn.Micro.3.2.0\lib\net45\Caliburn.Micro.Platform.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="CommonServiceLocator, Version=2.0.3.0, Culture=neutral, PublicKeyToken=489b6accfaf20ef0, processorArchitecture=MSIL">
+      <HintPath>..\packages\CommonServiceLocator.2.0.3\lib\net45\CommonServiceLocator.dll</HintPath>
+    </Reference>
+    <Reference Include="Costura, Version=3.1.0.0, Culture=neutral, PublicKeyToken=9919ef960d84173d, processorArchitecture=MSIL">
+      <HintPath>..\packages\Costura.Fody.3.1.0\lib\net46\Costura.dll</HintPath>
+    </Reference>
+    <Reference Include="Dapplo.Addons, Version=1.0.66.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Dapplo.Addons.1.0.66\lib\net46\Dapplo.Addons.dll</HintPath>
+    </Reference>
+    <Reference Include="Dapplo.Addons.Bootstrapper, Version=1.0.66.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Dapplo.Addons.Bootstrapper.1.0.66\lib\net46\Dapplo.Addons.Bootstrapper.dll</HintPath>
+    </Reference>
+    <Reference Include="Dapplo.CaliburnMicro, Version=1.0.54.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Dapplo.CaliburnMicro.1.0.54\lib\net46\Dapplo.CaliburnMicro.dll</HintPath>
+    </Reference>
+    <Reference Include="Dapplo.CaliburnMicro.Configuration, Version=1.0.54.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Dapplo.CaliburnMicro.Configuration.1.0.54\lib\net46\Dapplo.CaliburnMicro.Configuration.dll</HintPath>
+    </Reference>
+    <Reference Include="Dapplo.CaliburnMicro.Dapp, Version=1.0.54.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Dapplo.CaliburnMicro.Dapp.1.0.54\lib\net46\Dapplo.CaliburnMicro.Dapp.dll</HintPath>
+    </Reference>
+    <Reference Include="Dapplo.CaliburnMicro.Menu, Version=1.0.54.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Dapplo.CaliburnMicro.Menu.1.0.54\lib\net46\Dapplo.CaliburnMicro.Menu.dll</HintPath>
+    </Reference>
+    <Reference Include="Dapplo.CaliburnMicro.Security, Version=1.0.54.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Dapplo.CaliburnMicro.Security.1.0.54\lib\net46\Dapplo.CaliburnMicro.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="Dapplo.CaliburnMicro.Translations, Version=1.0.54.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Dapplo.CaliburnMicro.Translations.1.0.54\lib\net46\Dapplo.CaliburnMicro.Translations.dll</HintPath>
+    </Reference>
+    <Reference Include="Dapplo.Ini, Version=0.5.28.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Dapplo.Ini.0.5.28\lib\net45\Dapplo.Ini.dll</HintPath>
+    </Reference>
+    <Reference Include="Dapplo.InterfaceImpl, Version=0.2.12.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Dapplo.InterfaceImpl.0.2.12\lib\net45\Dapplo.InterfaceImpl.dll</HintPath>
+    </Reference>
+    <Reference Include="Dapplo.Language, Version=0.5.28.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Dapplo.Language.0.5.28\lib\net45\Dapplo.Language.dll</HintPath>
+    </Reference>
+    <Reference Include="Dapplo.Log, Version=1.2.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Dapplo.Log.1.2.1\lib\net45\Dapplo.Log.dll</HintPath>
+    </Reference>
+    <Reference Include="Dapplo.Utils, Version=1.0.158.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Dapplo.Utils.1.0.158\lib\net45\Dapplo.Utils.dll</HintPath>
+    </Reference>
+    <Reference Include="Dapplo.Windows, Version=0.5.80.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Dapplo.Windows.0.5.80\lib\net46\Dapplo.Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="Dapplo.Windows.Clipboard, Version=0.5.80.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Dapplo.Windows.Clipboard.0.5.80\lib\net46\Dapplo.Windows.Clipboard.dll</HintPath>
+    </Reference>
+    <Reference Include="Dapplo.Windows.Com, Version=0.5.80.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Dapplo.Windows.Com.0.5.80\lib\net46\Dapplo.Windows.Com.dll</HintPath>
+    </Reference>
+    <Reference Include="Dapplo.Windows.Common, Version=0.5.80.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Dapplo.Windows.Common.0.5.80\lib\net46\Dapplo.Windows.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Dapplo.Windows.DesktopWindowsManager, Version=0.5.80.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Dapplo.Windows.DesktopWindowsManager.0.5.80\lib\net46\Dapplo.Windows.DesktopWindowsManager.dll</HintPath>
+    </Reference>
+    <Reference Include="Dapplo.Windows.Dpi, Version=0.5.80.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Dapplo.Windows.Dpi.0.5.80\lib\net46\Dapplo.Windows.Dpi.dll</HintPath>
+    </Reference>
+    <Reference Include="Dapplo.Windows.Gdi32, Version=0.5.80.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Dapplo.Windows.Gdi32.0.5.80\lib\net46\Dapplo.Windows.Gdi32.dll</HintPath>
+    </Reference>
+    <Reference Include="Dapplo.Windows.Input, Version=0.5.80.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Dapplo.Windows.Input.0.5.80\lib\net46\Dapplo.Windows.Input.dll</HintPath>
+    </Reference>
+    <Reference Include="Dapplo.Windows.Kernel32, Version=0.5.80.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Dapplo.Windows.Kernel32.0.5.80\lib\net46\Dapplo.Windows.Kernel32.dll</HintPath>
+    </Reference>
+    <Reference Include="Dapplo.Windows.Messages, Version=0.5.80.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Dapplo.Windows.Messages.0.5.80\lib\net46\Dapplo.Windows.Messages.dll</HintPath>
+    </Reference>
+    <Reference Include="Dapplo.Windows.User32, Version=0.5.80.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Dapplo.Windows.User32.0.5.80\lib\net46\Dapplo.Windows.User32.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.mshtml, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.Composition" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Reactive, Version=4.0.0.0, Culture=neutral, PublicKeyToken=94bc3704cddfc263, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Reactive.4.0.0\lib\net46\System.Reactive.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Caching" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Windows" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Interactivity, Version=4.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Caliburn.Micro.3.2.0\lib\net45\System.Windows.Interactivity.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Destinations\OutlookDestination.cs" />
+    <Compile Include="Destinations\ExcelDestination.cs" />
+    <Compile Include="Destinations\OneNoteDestination.cs" />
+    <Compile Include="Destinations\PowerpointDestination.cs" />
+    <Compile Include="Destinations\WordDestination.cs" />
+    <Compile Include="IOfficeLanguage.cs" />
+    <Compile Include="IOfficeConfiguration.cs" />
+    <Compile Include="OfficeInterop\IAppointmentItem.cs" />
+    <Compile Include="OfficeInterop\EmailFormats.cs" />
+    <Compile Include="OfficeInterop\HierarchyScope.cs" />
+    <Compile Include="OfficeInterop\IAttachment.cs" />
+    <Compile Include="OfficeInterop\IAttachments.cs" />
+    <Compile Include="OfficeInterop\IComCommon.cs" />
+    <Compile Include="OfficeInterop\ICommonExplorer.cs" />
+    <Compile Include="OfficeInterop\IContactItem.cs" />
+    <Compile Include="OfficeInterop\IDocuments.cs" />
+    <Compile Include="OfficeInterop\IExplorer.cs" />
+    <Compile Include="OfficeInterop\IExplorers.cs" />
+    <Compile Include="OfficeInterop\IFolder.cs" />
+    <Compile Include="OfficeInterop\IHyperlink.cs" />
+    <Compile Include="OfficeInterop\IHyperlinks.cs" />
+    <Compile Include="OfficeInterop\IInlineShape.cs" />
+    <Compile Include="OfficeInterop\IInlineShapes.cs" />
+    <Compile Include="OfficeInterop\IInspector.cs" />
+    <Compile Include="OfficeInterop\IInspectors.cs" />
+    <Compile Include="OfficeInterop\IItem.cs" />
+    <Compile Include="OfficeInterop\IItems.cs" />
+    <Compile Include="OfficeInterop\INameSpace.cs" />
+    <Compile Include="OfficeInterop\IOneNoteApplication.cs" />
+    <Compile Include="OfficeInterop\IOutlookApplication.cs" />
+    <Compile Include="OfficeInterop\IPane.cs" />
+    <Compile Include="OfficeInterop\IPictures.cs" />
+    <Compile Include="OfficeInterop\IPropertyAccessor.cs" />
+    <Compile Include="OfficeInterop\IRecipient.cs" />
+    <Compile Include="OfficeInterop\ISelection.cs" />
+    <Compile Include="OfficeInterop\IWordDocument.cs" />
+    <Compile Include="OfficeInterop\IWordView.cs" />
+    <Compile Include="OfficeInterop\IWordWindow.cs" />
+    <Compile Include="OfficeInterop\IWorkbook.cs" />
+    <Compile Include="OfficeInterop\IWorkbooks.cs" />
+    <Compile Include="OfficeInterop\IWorksheet.cs" />
+    <Compile Include="OfficeInterop\IWorksheets.cs" />
+    <Compile Include="OfficeInterop\IZoom.cs" />
+    <Compile Include="OfficeInterop\IMailItem.cs" />
+    <Compile Include="OfficeInterop\MsoScaleFrom.cs" />
+    <Compile Include="OfficeInterop\MsoTriState.cs" />
+    <Compile Include="OfficeInterop\NewPageStyle.cs" />
+    <Compile Include="OfficeInterop\OfficeVersions.cs" />
+    <Compile Include="OfficeInterop\OlAttachmentType.cs" />
+    <Compile Include="OfficeInterop\OlBodyFormat.cs" />
+    <Compile Include="OfficeInterop\OlDefaultFolders.cs" />
+    <Compile Include="OfficeInterop\OlEditorType.cs" />
+    <Compile Include="OfficeInterop\OlInspectorClose.cs" />
+    <Compile Include="OfficeInterop\OlItemType.cs" />
+    <Compile Include="OfficeInterop\OlObjectClass.cs" />
+    <Compile Include="OfficeInterop\OlReoccurenceState.cs" />
+    <Compile Include="OfficeInterop\OlSensitivity.cs" />
+    <Compile Include="OfficeInterop\OlWindowState.cs" />
+    <Compile Include="OfficeInterop\OneNoteNotebook.cs" />
+    <Compile Include="OfficeInterop\OneNoteSection.cs" />
+    <Compile Include="OfficeInterop\PageInfo.cs" />
+    <Compile Include="OfficeInterop\SpecialLocation.cs" />
+    <Compile Include="OfficeInterop\WdUnits.cs" />
+    <Compile Include="OfficeInterop\XMLSchema.cs" />
+    <Compile Include="OfficeAddonModule.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="OfficeExport\ExcelExporter.cs" />
+    <Compile Include="OfficeExport\OneNoteExporter.cs" />
+    <Compile Include="OfficeExport\OutlookEmailExporter.cs" />
+    <Compile Include="OfficeExport\PowerpointExporter.cs" />
+    <Compile Include="OfficeExport\WordExporter.cs" />
+    <Compile Include="OfficeInterop\IExcelApplication.cs" />
+    <Compile Include="OfficeInterop\IComCollection.cs" />
+    <Compile Include="OfficeInterop\OneNotePage.cs" />
+    <Compile Include="OfficeInterop\PropTag.cs" />
+    <Compile Include="OfficeInterop\OutlookUtils.cs" />
+    <Compile Include="OfficeInterop\PowerpointInterop.cs" />
+    <Compile Include="OfficeInterop\IWordApplication.cs" />
+    <Compile Include="ViewModels\OfficeConfigViewModel.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Greenshot.Addons\Greenshot.Addons.csproj">
+      <Project>{5B924697-4DCD-4F98-85F1-105CB84B7341}</Project>
+      <Name>Greenshot.Addons</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="FodyWeavers.xml">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="Views\OfficeConfigView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.Targets" />
+  <PropertyGroup>
+    <PostBuildEvent>mkdir "$(SolutionDir)Greenshot\bin\$(Configuration)\Addons"
+copy "$(ProjectDir)bin\$(Configuration)\$(ProjectName).dll" "$(SolutionDir)Greenshot\bin\$(Configuration)\Addons\"
+copy "$(ProjectDir)bin\$(Configuration)\$(ProjectName).pdb" "$(SolutionDir)Greenshot\bin\$(Configuration)\Addons\"
+mkdir "$(SolutionDir)Greenshot\bin\$(Configuration)\Languages\$(ProjectName)"
+copy "$(ProjectDir)\Languages\*.xml" "$(SolutionDir)Greenshot\bin\$(Configuration)\Languages\$(ProjectName)"</PostBuildEvent>
+  </PropertyGroup>
+  <Import Project="..\packages\Fody.3.1.3\build\Fody.targets" Condition="Exists('..\packages\Fody.3.1.3\build\Fody.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Fody.3.1.3\build\Fody.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Fody.3.1.3\build\Fody.targets'))" />
+    <Error Condition="!Exists('..\packages\Costura.Fody.3.1.0\build\Costura.Fody.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Costura.Fody.3.1.0\build\Costura.Fody.targets'))" />
+  </Target>
+  <Import Project="..\packages\Costura.Fody.3.1.0\build\Costura.Fody.targets" Condition="Exists('..\packages\Costura.Fody.3.1.0\build\Costura.Fody.targets')" />
+</Project>

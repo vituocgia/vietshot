@@ -1,0 +1,32 @@
+﻿<UserControl x:Class="Greenshot.Addons.Views.FileConfigPartView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:viewModels="clr-namespace:Greenshot.Addons.ViewModels"
+             mc:Ignorable="d"
+             d:DataContext="{d:DesignInstance viewModels:FileConfigPartViewModel,IsDesignTimeCreatable=False}"
+             >
+    <StackPanel>
+        <StackPanel Visibility="{Binding OwnSettingsVisibility}">
+            <CheckBox Content="Use destination settings" IsChecked="{Binding UseOwnSettings}" />
+        </StackPanel>
+
+        <StackPanel IsEnabled="{Binding AreSettingsEnabled}">
+            <DockPanel LastChildFill="True">
+                <Label Content="{Binding GreenshotLanguage.SettingsPrimaryimageformat}" Width="100" />
+                <ComboBox SelectedValue="{Binding SelectedFormat}" ItemsSource="{Binding Formats}" SelectedValuePath="Key" DisplayMemberPath="Value" />
+            </DockPanel>
+            <DockPanel LastChildFill="True" Visibility="{Binding JpegSettingsVisibility}">
+                <Label Content="{Binding GreenshotLanguage.SettingsJpegquality}" Width="100" />
+                <Slider Maximum="100" Value="{Binding FileConfiguration.OutputFileJpegQuality}"/>
+            </DockPanel>
+            <CheckBox Content="{Binding GreenshotLanguage.SettingsReducecolors}" IsChecked="{Binding FileConfiguration.OutputFileReduceColors}"/>
+
+            <DockPanel LastChildFill="True">
+                <Label Content="{Binding GreenshotLanguage.SettingsFilenamepattern}" Width="100" />
+                <TextBox Text="{Binding FileConfiguration.OutputFileFilenamePattern}"/>
+            </DockPanel>
+        </StackPanel>
+    </StackPanel>
+</UserControl>

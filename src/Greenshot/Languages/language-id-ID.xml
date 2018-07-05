@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<language>
+	<resources prefix="Core">
+		<resource name="about_bugs">Harap laporkan kesalahan ke</resource>
+		<resource name="about_donations">Jika anda menyukai Greenshot, anda dipersilahkan untuk mendukung kami:</resource>
+		<resource name="about_host">Greenshot dikelola oleh GitHub di</resource>
+		<resource name="about_icons">Ikon dari Yusuke Kamiyamane Fugue ikon set (lisensi Creative Commons Attribution 3.0)</resource>
+		<resource name="about_license">
+			Hak Cipta milik Thomas Braun, Jens Klingen, Robin Krom 2007-2018
+			Greenshot comes with ABSOLUTELY NO WARRANTY. This is free software, and you are welcome to redistribute it under certain conditions.
+			Details about the GNU General Public License:
+		</resource>
+		<resource name="about_title">Tentang Greenshot</resource>
+		<resource name="application_title">Greenshot - utilitas penangkap layar yang revolusioner</resource>
+		<resource name="bugreport_cancel">Tutup</resource>
+		<resource name="bugreport_info">
+			Maaf, kesalahan yang tak terduga terjadi.
+
+			Kabar baiknya: anda dapat membantu kami memperbaikinya dengan mengisi laporan kesalahan.
+			Harap kunjungi laman berikut, buat laporan kesalahan baru dan letakkan konten dari area teks ke wadah deskripsi.
+
+			Harap tambah penjelasan yang berarti dan sertakan informasi lain yang penting untuk kami tiru kesalahannya.
+			Juga, kami sangat terbantu apabila anda mengecek laporan lain yang sama dengan kepunyaan anda. (Anda dapat menggunakan pencarian untuk mencari dengan cepat.) Terima kasih :)
+		</resource>
+		<resource name="bugreport_title">Kesalahan</resource>
+		<resource name="CANCEL">Batal</resource>
+		<resource name="clipboard_error">Sebuah kesalahan terjadi ketika sedang menulis di papan klip.</resource>
+		<resource name="clipboard_inuse">Greenshot tidak dapat menulis di papan kip saat proses {0} memblokir akses.</resource>
+		<resource name="clipboard_noimage">Tidak dapat menemukan gambar papan klip apapun.</resource>
+		<resource name="ClipboardFormats.BITMAP">Windows Bitmap</resource>
+		<resource name="ClipboardFormats.DIB">Device independent Bitmap (DIB)</resource>
+		<resource name="ClipboardFormats.HTML">HTML</resource>
+		<resource name="ClipboardFormats.HTMLDATAURL">HTML dengan gambar inline</resource>
+		<resource name="ClipboardFormats.PNG">PNG</resource>
+		<resource name="colorpicker_alpha">Alfa</resource>
+		<resource name="colorpicker_apply">Lakukan</resource>
+		<resource name="colorpicker_blue">Biru</resource>
+		<resource name="colorpicker_green">Hijau</resource>
+		<resource name="colorpicker_htmlcolor">Warna HTML</resource>
+		<resource name="colorpicker_recentcolors">Warna terakhir digunakan</resource>
+		<resource name="colorpicker_red">Merah</resource>
+		<resource name="colorpicker_title">Pengambil warna</resource>
+		<resource name="colorpicker_transparent">Transparan</resource>
+		<resource name="com_rejected">Destinasi {0} menolak akses Greenshot, mungkin sebuah dialog terbuka. Tutup dialog dan ulangi lagi</resource>
+		<resource name="com_rejected_title">Akses Greenshot ditolak</resource>
+		<resource name="config_unauthorizedaccess_write">Tidak dapat menyimpan berkas konfigurasi Greenshot. Harap cek ijin akses untuk '{0}'.</resource>
+		<resource name="contextmenu_about">Tentang Greenshot</resource>
+		<resource name="contextmenu_capturearea">Tangkap daerah</resource>
+		<resource name="contextmenu_captureclipboard">Buka gambar dari papan klip</resource>
+		<resource name="contextmenu_capturefullscreen">Tangkap layar penuh</resource>
+		<resource name="contextmenu_capturefullscreen_all">semua</resource>
+		<resource name="contextmenu_capturefullscreen_bottom">bawah</resource>
+		<resource name="contextmenu_capturefullscreen_left">kiri</resource>
+		<resource name="contextmenu_capturefullscreen_right">kanan</resource>
+		<resource name="contextmenu_capturefullscreen_top">atas</resource>
+		<resource name="contextmenu_captureie">Tangkap Internet Explorer</resource>
+		<resource name="contextmenu_captureiefromlist">Tangkap Internet Explorer dari daftar</resource>
+		<resource name="contextmenu_capturelastregion">Tangkap daerah terakhir</resource>
+		<resource name="contextmenu_capturewindow">Tangkap jendela</resource>
+		<resource name="contextmenu_capturewindowfromlist">Tangkap jendela dari daftar</resource>
+		<resource name="contextmenu_donate">Dukung Greenshot</resource>
+		<resource name="contextmenu_exit">Keluar</resource>
+		<resource name="contextmenu_help">Bantuan</resource>
+		<resource name="contextmenu_openfile">Buka gambar dari berkas</resource>
+		<resource name="contextmenu_openrecentcapture">Buka lokasi terakhir tangkapan</resource>
+		<resource name="contextmenu_quicksettings">Setelan cepat</resource>
+		<resource name="contextmenu_settings">Pengaturan...</resource>
+		<resource name="destination_exportfailed">Tidak bisa mengekspor ke {0}. Mohon ulangi lagi.</resource>
+		<resource name="EmailFormats.Html">Outlook dengan HTML</resource>
+		<resource name="EmailFormats.Text">Outlook dengan teks</resource>
+		<resource name="error">Kesalahan</resource>
+		<resource name="error_multipleinstances">Sesuatu dari Greenshot telah dijalankan.</resource>
+		<resource name="error_nowriteaccess">
+			Tidak dapat berkas {0}.
+			Harap cek aksesibilitas menuis pada lokasi penyimpanan yang dipilih.
+		</resource>
+		<resource name="error_openfile">Berkas "{0}" tidak dapat dibuka.</resource>
+		<resource name="error_openlink">Tidak dapat membuka link '{0}'.</resource>
+		<resource name="error_save">Tidak dapat menyimpan tangkapan, dimohon cari lokasi yang sesuai.</resource>
+		<resource name="expertsettings">Khusus Ahli</resource>
+		<resource name="expertsettings_autoreducecolors">Buat gambar 8-bit apabila warna kurang dari 256 ketika punya &gt; gambar 8 bits</resource>
+		<resource name="expertsettings_checkunstableupdates">Cek untuk pembaruan tak stabil</resource>
+		<resource name="expertsettings_clipboardformats">Format papan klip</resource>
+		<resource name="expertsettings_counter">Nomor untuk ${NUM} dalam pola nama berkas</resource>
+		<resource name="expertsettings_enableexpert">Saya tahu apa yang saya perbuat!</resource>
+		<resource name="expertsettings_footerpattern">Printer footer pattern</resource>
+		<resource name="expertsettings_minimizememoryfootprint">Minimize memory footprint, but with a performance penalty (tidak dianjurkan).</resource>
+		<resource name="expertsettings_optimizeforrdp">Buat optimisasi untuk penggunaan bersam remote desktop</resource>
+		<resource name="expertsettings_reuseeditorifpossible">Gunakan kembali editor jika bisa</resource>
+		<resource name="expertsettings_suppresssavedialogatclose">Suppress the save dialog when closing the editor</resource>
+		<resource name="expertsettings_thumbnailpreview">Tampilkan thumbnail jendela di menu konteks (untuk Vista dan windows 7)</resource>
+		<resource name="exported_to">Diekspor ke: {0}</resource>
+		<resource name="exported_to_error">Kesalahan terjadi ketika mengekspor ke {0}:</resource>
+		<resource name="help_title">Bantuan Greenshot</resource>
+		<resource name="hotkeys">Hotkey</resource>
+		<resource name="jpegqualitydialog_choosejpegquality">Pilih kualitas JPEG untuk gambar anda</resource>
+		<resource name="OK">Oke</resource>
+		<resource name="print_error">Kesalahan terjadi ketika mencoba mencetak.</resource>
+		<resource name="printoptions_allowcenter">Cetakan di tengah pada halaman</resource>
+		<resource name="printoptions_allowenlarge">Besarkan cetakan tepat sesuai ukuran kertas</resource>
+		<resource name="printoptions_allowrotate">Putar cetakan ke orientasi halaman</resource>
+		<resource name="printoptions_allowshrink">Kecilkan cetakan tepat sesuai ukuran kertas</resource>
+		<resource name="printoptions_colors">Pengaturan warna</resource>
+		<resource name="printoptions_dontaskagain">Simpan pengaturan sebagai pedoman dan jangan tanya lagi</resource>
+		<resource name="printoptions_inverted">Cetak dengan warna kebalikan</resource>
+		<resource name="printoptions_layout">Pengaturan layout halaman</resource>
+		<resource name="printoptions_printcolor">Cetak penuh warna</resource>
+		<resource name="printoptions_printgrayscale">Cetak keabu-abuan</resource>
+		<resource name="printoptions_printmonochrome">Cetak hitam putih</resource>
+		<resource name="printoptions_timestamp">Cetak waktu/tanggal pada bawah halaman</resource>
+		<resource name="printoptions_title">Pengaturan cetakan Greenshot</resource>
+		<resource name="qualitydialog_dontaskagain">Simpan kualitas default dan jangan tanya lagi</resource>
+		<resource name="qualitydialog_title">Kualitas Greenshot</resource>
+		<resource name="quicksettings_destination_file">Simpan cepat (menggunakan pengaturan output yang dipilih)</resource>
+		<resource name="settings_alwaysshowprintoptionsdialog">Perlihatkan dialog pengaturan mencetak setiap kali gambar dicetak</resource>
+		<resource name="settings_alwaysshowqualitydialog">Tampilkan  dialog kualitas setiap kali gambar disimpan</resource>
+		<resource name="settings_applicationsettings">Setelan Aplikasi</resource>
+		<resource name="settings_autostartshortcut">Luncurkan Greenshot saat startup</resource>
+		<resource name="settings_capture">Penangkapan</resource>
+		<resource name="settings_capture_mousepointer">Tangkap penunjuk mouse</resource>
+		<resource name="settings_capture_windows_interactive">Gunakan moda penangkapan jendela interaktif</resource>
+		<resource name="settings_checkperiod">Cek pembaruan dalam interval hari (0=tanpa cek)</resource>
+		<resource name="settings_configureplugin">Atur</resource>
+		<resource name="settings_copypathtoclipboard">Kopi asal berkas ke papan klip setiap kali gambar disimpan</resource>
+		<resource name="settings_destination">Destinasi</resource>
+		<resource name="settings_destination_clipboard">Kopi ke papan klip</resource>
+		<resource name="settings_destination_email">E-Mail</resource>
+		<resource name="settings_destination_file">Simpan cepat (menggunakan pengaturan berikut)</resource>
+		<resource name="settings_destination_fileas">Simpan sebagai (tampilkan dialog)</resource>
+		<resource name="settings_destination_picker">Pilih destinasi secara dinamis</resource>
+		<resource name="settings_destination_printer">Kirim ke printer</resource>
+		<resource name="settings_editor">Editor</resource>
+		<resource name="settings_filenamepattern">Pola nama berkas</resource>
+		<resource name="settings_general">Umum</resource>
+		<resource name="settings_iconsize">Ukuran ikon</resource>
+		<resource name="settings_iecapture">Tangkap Internet Explorer</resource>
+		<resource name="settings_jpegquality">Kualitas JPEG</resource>
+		<resource name="settings_language">Bahasa</resource>
+		<resource name="settings_message_filenamepattern">
+			Pedoman berikut akan ditimpa otomatis dalam pola yang ditetapkan:
+			${YYYY} tahun, 4 digit
+			${MM} bulan, 2 digit
+			${DD} hari, 2 digit
+			${hh} jam, 2 digit
+			${mm} menit, 2 digit
+			${ss} detik, 2 digit
+			${NUM} angka tambahan, 6 digit
+			${title} judul jendela
+			${user} pengguna Windows
+			${domain} domain Windows
+			${hostname} nama PC
+
+			Anda juga dapat membuat direktori Greenshot secara dinamis, cukup gunakan simbol garis miring {\} untuk memisahkan folder dan nama berkas
+			Contoh: pola ${YYYY}-${MM}-${DD}\${hh}-${mm}-${ss}
+			akan menbuat folder untuk hari terbaru di lokasi penyimpan default, cont. 2008-06-29, nama berkas didasarkan pada waktu terbaru
+			cont, 11_58_32 (ditambah ekstensi yang ditetapkan pada pengaturan)
+		</resource>
+		<resource name="settings_network">Jaringan dan pembaruan</resource>
+		<resource name="settings_output">Output</resource>
+		<resource name="settings_playsound">Mainkan suara kamera</resource>
+		<resource name="settings_plugins">Plugin</resource>
+		<resource name="settings_plugins_createdby">Dibuat oleh</resource>
+		<resource name="settings_plugins_dllpath">DLL Path</resource>
+		<resource name="settings_plugins_name">Nama</resource>
+		<resource name="settings_plugins_version">Versi</resource>
+		<resource name="settings_preferredfilesettings">Pengaturan Berkas Output yang Disukai</resource>
+		<resource name="settings_primaryimageformat">Format Gambar</resource>
+		<resource name="settings_printer">Printer</resource>
+		<resource name="settings_printoptions">Pengaturan printer</resource>
+		<resource name="settings_qualitysettings">Pengaturan kualitas</resource>
+		<resource name="settings_reducecolors">Turunkan jumlah warna sampai maksimal 256</resource>
+		<resource name="settings_registerhotkeys">Register Hotkeys</resource>
+		<resource name="settings_showflashlight">Tampilkan cahaya flash</resource>
+		<resource name="settings_shownotify">Tampilkan pesan peringatan</resource>
+		<resource name="settings_storagelocation">Lokasi penyimpanan</resource>
+		<resource name="settings_title">Setelan</resource>
+		<resource name="settings_tooltip_filenamepattern">Pola yang digunakan saat menyimpan tangkapan</resource>
+		<resource name="settings_tooltip_language">Bahasa untuk antarmuka Greenshot</resource>
+		<resource name="settings_tooltip_primaryimageformat">Format gambar yang digunakan</resource>
+		<resource name="settings_tooltip_registerhotkeys">Tetapkan apakah pintasan Prnt, Ctrl + Prnt, Alt + Prnt digunakan secara global oleh Greenshot, sampai program dimatikan</resource>
+		<resource name="settings_tooltip_storagelocation">Lokasi dimana tangkapan disimpan secara default (kosongkan untuk menyimpan di desktop)</resource>
+		<resource name="settings_usedefaultproxy">Gunakan proxy default sistem</resource>
+		<resource name="settings_visualization">Efek</resource>
+		<resource name="settings_waittime">Milisekon untuk menunggu sebelum menagkap</resource>
+		<resource name="settings_window_capture_mode">Moda penangkap jendela</resource>
+		<resource name="settings_windowscapture">Tangkap jendela</resource>
+		<resource name="settings_zoom">Tampilkan Pembesar</resource>
+		<resource name="tooltip_firststart">Klik kanan disini atau tekan tombol {0}.</resource>
+		<resource name="update_found">Versi baru Greenshot telah tersedia! Apakah anda ingin mengunduh Greenshot {0}?</resource>
+		<resource name="wait_ie_capture">Harap tunggu ketika halaman Internet Explorer sedang ditangkap</resource>
+		<resource name="warning">Peringatan</resource>
+		<resource name="warning_hotkeys">
+			hotkey {0} tak dapat terdaftar, kemungkinan akibat alat lain telah mengklaim penggunaan hotkey, anda dapat mengganti hotkey yang lain atau menonaktifkannya.
+
+			Semua fitur Greenshot masih bekerja dengan baik dari ikon tray menu konteks tanpa hotkey.
+		</resource>
+		<resource name="WindowCaptureModes.Aero">Gunakan warna kesukaan</resource>
+		<resource name="WindowCaptureModes.AeroTransparent">Pertahankan kebeningan</resource>
+		<resource name="WindowCaptureModes.Auto">Otomatis</resource>
+		<resource name="WindowCaptureModes.GDI">Gunakan warna kesukaan</resource>
+		<resource name="WindowCaptureModes.Screen">Tampakkan</resource>
+	</resources>
+</language>

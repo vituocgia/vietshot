@@ -1,0 +1,23 @@
+﻿<UserControl x:Class="Greenshot.Addon.OneDrive.Views.OneDriveConfigView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:viewModels="clr-namespace:Greenshot.Addon.OneDrive.ViewModels"
+             mc:Ignorable="d"
+             d:DataContext="{d:DesignInstance viewModels:OneDriveConfigViewModel,IsDesignTimeCreatable=False}"
+             >
+    <StackPanel>
+        <GroupBox Header="{Binding OneDriveLanguage.SettingsTitle}">
+            <StackPanel>
+                <ContentControl x:Name="FileConfigPartViewModel"/>
+                <CheckBox IsChecked="{Binding OneDriveConfiguration.AfterUploadLinkToClipBoard}" Content="{Binding OneDriveLanguage.UsePageLink}"/>
+                <DockPanel LastChildFill="True">
+                    <Label Content="{Binding OneDriveLanguage.LabelLinkType}" Width="100" />
+                    <ComboBox SelectedValue="{Binding SelectedLinkType}" ItemsSource="{Binding LinkTypes}" SelectedValuePath="Key" DisplayMemberPath="Value" />
+                </DockPanel>
+                <Button Content="{Binding OneDriveLanguage.ResetCredentialsButton}" x:Name="ResetCredentials" />
+            </StackPanel>
+        </GroupBox>
+    </StackPanel>
+</UserControl>

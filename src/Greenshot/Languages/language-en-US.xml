@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<language>
+	<resources prefix="Core">
+		<resource name="about_bugs">Please report bugs to</resource>
+		<resource name="about_donations">If you like Greenshot, you are welcome to support us:</resource>
+		<resource name="about_host">Greenshot is hosted by GitHub at</resource>
+		<resource name="about_icons">Icons from Yusuke Kamiyamane's Fugue icon set (Creative Commons Attribution 3.0 license)</resource>
+		<resource name="about_license">
+			Copyright (C) 2007-2018 Thomas Braun, Jens Klingen, Robin Krom
+			Greenshot comes with ABSOLUTELY NO WARRANTY. This is free software, and you are welcome to redistribute it under certain conditions.
+			Details about the GNU General Public License:
+		</resource>
+		<resource name="about_title">About Greenshot</resource>
+		<resource name="application_title">Greenshot - the revolutionary screenshot utility</resource>
+		<resource name="bugreport_cancel">Close</resource>
+		<resource name="bugreport_info">
+			Sorry, an unexpected error occured.
+
+			The good news is: you can help us getting rid of it by filing a bug report.
+			Please visit the URL below, create a new bug report and paste the contents from the text area into the description.
+
+			Please add a meaningful summary and enclose any information you consider to be helpful for reproducing the issue.
+			Also, we would highly appreciate if you checked whether a tracker item already exists for this bug. (You can use the search to find those quickly.) Thank you :)
+		</resource>
+		<resource name="bugreport_title">Error</resource>
+		<resource name="CANCEL">Cancel</resource>
+		<resource name="clipboard_error">An unexpected error occured while writing to the clipboard.</resource>
+		<resource name="clipboard_inuse">Greenshot wasn't able to write to the clipboard as the process {0} blocked the access.</resource>
+		<resource name="clipboard_noimage">Couldn't find a clipboard image.</resource>
+		<resource name="ClipboardFormats.BITMAP">Windows Bitmap</resource>
+		<resource name="ClipboardFormats.DIB">Device independent Bitmap (DIB)</resource>
+		<resource name="ClipboardFormats.HTML">HTML</resource>
+		<resource name="ClipboardFormats.HTMLDATAURL">HTML with inline images</resource>
+		<resource name="ClipboardFormats.PNG">PNG</resource>
+		<resource name="colorpicker_alpha">Alpha</resource>
+		<resource name="colorpicker_apply">Apply</resource>
+		<resource name="colorpicker_blue">Blue</resource>
+		<resource name="colorpicker_green">Green</resource>
+		<resource name="colorpicker_htmlcolor">HTML color</resource>
+		<resource name="colorpicker_recentcolors">Recently used colors</resource>
+		<resource name="colorpicker_red">Red</resource>
+		<resource name="colorpicker_title">Color picker</resource>
+		<resource name="colorpicker_transparent">Transparent</resource>
+		<resource name="com_rejected">The destination {0} rejected Greenshot access, probably a dialog is open. Close the dialog and try again.</resource>
+		<resource name="com_rejected_title">Greenshot access rejected</resource>
+		<resource name="config_unauthorizedaccess_write">Could not save Greenshot's configuration file. Please check access permissions for '{0}'.</resource>
+		<resource name="contextmenu_about">About Greenshot</resource>
+		<resource name="contextmenu_capturearea">Capture region</resource>
+		<resource name="contextmenu_captureclipboard">Open image from clipboard</resource>
+		<resource name="contextmenu_capturefullscreen">Capture full screen</resource>
+		<resource name="contextmenu_capturefullscreen_all">all</resource>
+		<resource name="contextmenu_capturefullscreen_bottom">bottom</resource>
+		<resource name="contextmenu_capturefullscreen_left">left</resource>
+		<resource name="contextmenu_capturefullscreen_right">right</resource>
+		<resource name="contextmenu_capturefullscreen_top">top</resource>
+		<resource name="contextmenu_captureie">Capture Internet Explorer</resource>
+		<resource name="contextmenu_captureiefromlist">Capture Internet Explorer from list</resource>
+		<resource name="contextmenu_capturelastregion">Capture last region</resource>
+		<resource name="contextmenu_capturewindow">Capture window</resource>
+		<resource name="contextmenu_capturewindowfromlist">Capture window from list</resource>
+		<resource name="contextmenu_donate">Support Greenshot</resource>
+		<resource name="contextmenu_exit">Exit</resource>
+		<resource name="contextmenu_help">Help</resource>
+		<resource name="contextmenu_openfile">Open image from file</resource>
+		<resource name="contextmenu_openrecentcapture">Open last capture location</resource>
+		<resource name="contextmenu_quicksettings">Quick preferences</resource>
+		<resource name="contextmenu_settings">Preferences...</resource>
+		<resource name="destination_exportfailed">Error while exporting to {0}. Please try again.</resource>
+		<resource name="EmailFormats.Html">Outlook with HTML</resource>
+		<resource name="EmailFormats.Text">Outlook with text</resource>
+		<resource name="error">Error</resource>
+		<resource name="error_multipleinstances">An instance of Greenshot is already running.</resource>
+		<resource name="error_nowriteaccess">
+			Cannot save file to {0}.
+			Please check write accessibility of the selected storage location.
+		</resource>
+		<resource name="error_openfile">The file "{0}" could not be opened.</resource>
+		<resource name="error_openlink">Could not open link '{0}'.</resource>
+		<resource name="error_save">Could not save screenshot, please find a suitable location.</resource>
+		<resource name="error_save_invalid_chars">The generated filename or directory name is not valid. Please fix the filename pattern and then try again.</resource>
+		<resource name="expertsettings">Expert</resource>
+		<resource name="expertsettings_autoreducecolors">Create an 8-bit image if the colors are less than 256 while having a &gt; 8 bits image</resource>
+		<resource name="expertsettings_checkunstableupdates">Check for unstable updates</resource>
+		<resource name="expertsettings_clipboardformats">Clipboard formats</resource>
+		<resource name="expertsettings_counter">The number for the ${NUM} in the filename pattern</resource>
+		<resource name="expertsettings_enableexpert">I know what I am doing!</resource>
+		<resource name="expertsettings_footerpattern">Printer footer pattern</resource>
+		<resource name="expertsettings_minimizememoryfootprint">Minimize memory footprint, but with a performance penalty (not advised).</resource>
+		<resource name="expertsettings_optimizeforrdp">Make some optimizations for usage with remote desktop</resource>
+		<resource name="expertsettings_reuseeditorifpossible">Reuse editor if possible</resource>
+		<resource name="expertsettings_suppresssavedialogatclose">Suppress the save dialog when closing the editor</resource>
+		<resource name="expertsettings_thumbnailpreview">Show window thumbnails in context menu (for Vista and windows 7)</resource>
+		<resource name="exported_to">Exported to: {0}</resource>
+		<resource name="exported_to_error">An error occured while exporting to {0}:</resource>
+		<resource name="help_title">Greenshot Help</resource>
+		<resource name="hotkeys">Hotkeys</resource>
+		<resource name="jpegqualitydialog_choosejpegquality">Please choose the JPEG quality for your image.</resource>
+		<resource name="OK">Ok</resource>
+		<resource name="print_error">An error ocurred while trying to print.</resource>
+		<resource name="printoptions_allowcenter">Center printout on page</resource>
+		<resource name="printoptions_allowenlarge">Enlarge printout to fit paper size</resource>
+		<resource name="printoptions_allowrotate">Rotate printout to page orientation</resource>
+		<resource name="printoptions_allowshrink">Shrink printout to fit paper size</resource>
+		<resource name="printoptions_colors">Color settings</resource>
+		<resource name="printoptions_dontaskagain">Save options as default and do not ask again</resource>
+		<resource name="printoptions_inverted">Print with inverted colors</resource>
+		<resource name="printoptions_layout">Page layout settings</resource>
+		<resource name="printoptions_printcolor">Full color print</resource>
+		<resource name="printoptions_printgrayscale">Force grayscale printing</resource>
+		<resource name="printoptions_printmonochrome">Force black/white printing</resource>
+		<resource name="printoptions_timestamp">Print date / time at bottom of page</resource>
+		<resource name="printoptions_title">Greenshot print options</resource>
+		<resource name="qualitydialog_dontaskagain">Save as default quality and do not ask again</resource>
+		<resource name="qualitydialog_title">Greenshot quality</resource>
+		<resource name="quicksettings_destination_file">Save directly (using preferred file output settings)</resource>
+		<resource name="settings_alwaysshowprintoptionsdialog">Show print options dialog every time an image is printed</resource>
+		<resource name="settings_alwaysshowqualitydialog">Show quality dialog every time an image is saved</resource>
+		<resource name="settings_applicationsettings">Application Settings</resource>
+		<resource name="settings_autostartshortcut">Launch Greenshot on startup</resource>
+		<resource name="settings_capture">Capture</resource>
+		<resource name="settings_capture_mousepointer">Capture mousepointer</resource>
+		<resource name="settings_capture_windows_interactive">Use interactive window capture mode</resource>
+		<resource name="settings_checkperiod">Update check interval in days (0=no check)</resource>
+		<resource name="settings_configureplugin">Configure</resource>
+		<resource name="settings_copypathtoclipboard">Copy file path to clipboard every time an image is saved</resource>
+		<resource name="settings_destination">Destination</resource>
+		<resource name="settings_destination_clipboard">Copy to clipboard</resource>
+		<resource name="settings_destination_email">E-Mail</resource>
+		<resource name="settings_destination_file">Save directly (using settings below)</resource>
+		<resource name="settings_destination_fileas">Save as (displaying dialog)</resource>
+		<resource name="settings_destination_picker">Select destination dynamically</resource>
+		<resource name="settings_destination_printer">Send to printer</resource>
+		<resource name="settings_editor">Editor</resource>
+		<resource name="settings_filenamepattern">Filename pattern</resource>
+		<resource name="settings_general">General</resource>
+		<resource name="settings_iecapture">Internet Explorer capture</resource>
+		<resource name="settings_jpegquality">JPEG quality</resource>
+		<resource name="settings_language">Language</resource>
+		<resource name="settings_message_filenamepattern">
+			The following placeholders will be replaced automatically in the pattern defined:
+			${YYYY} year, 4 digits
+			${MM} month, 2 digits
+			${DD} day, 2 digits
+			${hh} hour, 2 digits
+			${mm} minute, 2 digits
+			${ss} second, 2 digits
+			${NUM} incrementing number, 6 digits
+			${title} Window title
+			${user} Windows user
+			${domain} Windows domain
+			${hostname} PC name
+
+			You can also have Greenshot create directories dynamically, simply use the backslash symbol (\) to separate folders and filename.
+			Example: the pattern ${YYYY}-${MM}-${DD}\${hh}-${mm}-${ss}
+			will generate a folder for the current day in your default storage location, e.g. 2008-06-29, the contained screenshot file's name will be based on the current
+			time, e.g. 11_58_32 (plus extension defined in the settings)
+		</resource>
+		<resource name="settings_network">Network and updates</resource>
+		<resource name="settings_output">Output</resource>
+		<resource name="settings_playsound">Play camera sound</resource>
+		<resource name="settings_plugins">Plugins</resource>
+		<resource name="settings_plugins_createdby">Created by</resource>
+		<resource name="settings_plugins_dllpath">DLL Path</resource>
+		<resource name="settings_plugins_name">Name</resource>
+		<resource name="settings_plugins_version">Version</resource>
+		<resource name="settings_preferredfilesettings">Preferred Output File Settings</resource>
+		<resource name="settings_primaryimageformat">Image format</resource>
+		<resource name="settings_printer">Printer</resource>
+		<resource name="settings_printoptions">Print options</resource>
+		<resource name="settings_qualitysettings">Quality settings</resource>
+		<resource name="settings_reducecolors">Reduce the amount of colors to a maximum of 256</resource>
+		<resource name="settings_registerhotkeys">Register Hotkeys</resource>
+		<resource name="settings_showflashlight">Show flashlight</resource>
+		<resource name="settings_shownotify">Show notifications</resource>
+		<resource name="settings_zoom">Show magnifier</resource>
+		<resource name="settings_storagelocation">Storage location</resource>
+		<resource name="settings_title">Settings</resource>
+		<resource name="settings_tooltip_filenamepattern">Pattern used for generating filenames when saving screenshots</resource>
+		<resource name="settings_tooltip_language">Language of greenshot's user interface</resource>
+		<resource name="settings_tooltip_primaryimageformat">Image format used by default</resource>
+		<resource name="settings_tooltip_registerhotkeys">Defines whether the shortcuts Prnt, Ctrl + Print, Alt + Prnt are reserved for global use by Greenshot at program startup, until the program is shut down.</resource>
+		<resource name="settings_tooltip_storagelocation">Location where screenshots are stored by default (leave empty for saving to your desktop)</resource>
+		<resource name="settings_usedefaultproxy">Use default system proxy</resource>
+		<resource name="settings_visualization">Effects</resource>
+		<resource name="settings_waittime">Milliseconds to wait before capture</resource>
+		<resource name="settings_window_capture_mode">Window capture mode</resource>
+		<resource name="settings_windowscapture">Window capture</resource>
+		<resource name="tooltip_firststart">Right-click here or press the {0} key.</resource>
+		<resource name="update_found">A newer version of Greenshot is available! Do you want to download Greenshot {0}?</resource>
+		<resource name="wait_ie_capture">Please wait while the page in Internet Explorer is captured...</resource>
+		<resource name="warning">Warning</resource>
+		<resource name="warning_hotkeys">
+			The hotkey(s) "{0}" could not be registered. This problem is probably caused by another tool claiming usage of the same hotkey(s)! You could either change your hotkey settings or deactivate/change the software making use of the hotkey(s).
+
+			All Greenshot features still work directly from the tray icon context menu without hotkeys.
+		</resource>
+		<resource name="WindowCaptureModes.Aero">Use custom color</resource>
+		<resource name="WindowCaptureModes.AeroTransparent">Preserve transparency</resource>
+		<resource name="WindowCaptureModes.Auto">Automatically</resource>
+		<resource name="WindowCaptureModes.GDI">Use default color</resource>
+		<resource name="WindowCaptureModes.Screen">As displayed</resource>
+		<resource name="settings_iconsize">Icon size</resource>
+	</resources>
+</language>

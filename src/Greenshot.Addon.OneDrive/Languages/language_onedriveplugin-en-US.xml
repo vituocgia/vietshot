@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<language>
+    <resources prefix="OneDrive">
+        <resource name="communication_wait">
+            Communicating with OneDrive. Please wait...
+        </resource>
+        <resource name="label_link_type">
+            Link Type
+        </resource>
+        <resource name="settings_title">
+            OneDrive settings
+        </resource>
+        <resource name="upload_failure">
+            An error occured while uploading to OneDrive:
+        </resource>
+        <resource name="upload_menu_item">
+            Upload to OneDrive
+        </resource>
+        <resource name="label_url">
+            Url
+        </resource>
+        <resource name="reset_credentials_button">
+            Reset OneDrive credentials
+        </resource>
+    </resources>
+</language>

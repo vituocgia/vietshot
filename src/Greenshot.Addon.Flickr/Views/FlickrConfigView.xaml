@@ -1,0 +1,28 @@
+﻿<UserControl x:Class="Greenshot.Addon.Flickr.Views.FlickrConfigView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:viewModels="clr-namespace:Greenshot.Addon.Flickr.ViewModels"
+             mc:Ignorable="d"
+             d:DataContext="{d:DesignInstance viewModels:FlickrConfigViewModel,IsDesignTimeCreatable=False}"
+             >
+    <StackPanel>
+        <GroupBox Header="{Binding FlickrLanguage.SettingsTitle}">
+            <StackPanel>
+                <ContentControl x:Name="FileConfigPartViewModel"/>
+                <DockPanel LastChildFill="True">
+                    <Label Content="{Binding FlickrLanguage.LabelSafetyLevel}" Width="100" />
+                    <ComboBox SelectedValue="{Binding SelectedSafetyLevel}" ItemsSource="{Binding SafetyLevels}" SelectedValuePath="Key" DisplayMemberPath="Value" />
+                </DockPanel>
+                <CheckBox IsChecked="{Binding FlickrConfiguration.AfterUploadLinkToClipBoard}" Content="{Binding FlickrLanguage.LabelAfterUploadLinkToClipBoard}"/>
+                <CheckBox IsChecked="{Binding FlickrConfiguration.HiddenFromSearch}" Content="{Binding FlickrLanguage.LabelHiddenFromSearch}"/>
+                <StackPanel Orientation="Horizontal">
+                    <CheckBox IsChecked="{Binding FlickrConfiguration.IsPublic}" Content="{Binding FlickrLanguage.Public}"/>
+                    <CheckBox IsChecked="{Binding FlickrConfiguration.IsFamily}" Content="{Binding FlickrLanguage.Family}"/>
+                    <CheckBox IsChecked="{Binding FlickrConfiguration.IsFriend}" Content="{Binding FlickrLanguage.Friend}"/>
+                </StackPanel>
+            </StackPanel>
+        </GroupBox>
+    </StackPanel>
+</UserControl>

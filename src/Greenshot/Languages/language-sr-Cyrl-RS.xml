@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<language>
+	<resources prefix="Core">
+		<resource name="about_bugs">Пријавите грешке на:</resource>
+		<resource name="about_donations">Ако вам се свиђа Гриншот, помозите нам:</resource>
+		<resource name="about_host">Гриншот покреће Сорсфорџ (sourceforge.net):</resource>
+		<resource name="about_icons">Иконе су преузете из пакета „Fugue“ Јусуке Камијамане (лиценца Кријејтив комонс Ауторство 3.0)</resource>
+		<resource name="about_license">
+			Ауторска права © 2007–2012 Томас Браун, Џенс Клинџен, Робин Кром
+			Гриншот се издаје БЕЗ ИКАКВЕ ГАРАНЦИЈЕ. Он је бесплатан програм, који можете да делите под одређеним условима.
+			Више информација о ГНУ-овој општој јавној лиценци:
+		</resource>
+		<resource name="about_title">О програму</resource>
+		<resource name="application_title">Гриншот – револуционарни програм за сликање екрана</resource>
+		<resource name="bugreport_cancel">Затвори</resource>
+		<resource name="bugreport_info">
+			Дошло је до неочекиване грешке.
+			Добра вест је то да нам можете помоћи да је се решимо тако што ћете попунити извештај о грешци.
+			Посетите доленаведену адресу, направите нови извештај о грешци и налепите садржај из текстуалног оквира на опис.
+			Молимо вас да додате резиме и приложите било какве податке које сматрате корисним за отклањање грешке.
+			Такође вас молимо да проверите да ли већ постоји слична грешка. За то користите претрагу. Хвала вам.
+		</resource>
+		<resource name="bugreport_title">Грешка</resource>
+		<resource name="CANCEL">Откажи</resource>
+		<resource name="clipboard_error">Дошло је до неочекиване грешке при уписивању у оставу.</resource>
+		<resource name="clipboard_inuse">Не могу да пишем у оставу јер је процес {0} забранио приступ.</resource>
+		<resource name="ClipboardFormats.DIB">Device-Independent Bitmap (DIB)</resource>
+		<resource name="ClipboardFormats.HTML">HTML</resource>
+		<resource name="ClipboardFormats.HTMLDATAURL">HTML (са сликама)</resource>
+		<resource name="ClipboardFormats.PNG">PNG</resource>
+		<resource name="colorpicker_alpha">Алфа:</resource>
+		<resource name="colorpicker_apply">Примени</resource>
+		<resource name="colorpicker_blue">Плава:</resource>
+		<resource name="colorpicker_green">Зелена:</resource>
+		<resource name="colorpicker_htmlcolor">HTML боја</resource>
+		<resource name="colorpicker_recentcolors">Недавно коришћене боје</resource>
+		<resource name="colorpicker_red">Црвена:</resource>
+		<resource name="colorpicker_title">Бирач боја</resource>
+		<resource name="colorpicker_transparent">Провидно</resource>
+		<resource name="config_unauthorizedaccess_write">Не могу да сачувам датотеку са подешавањима. Проверите дозволе за приступ за „{0}“.</resource>
+		<resource name="contextmenu_about">О програму</resource>
+		<resource name="contextmenu_capturearea">Област сликања</resource>
+		<resource name="contextmenu_captureclipboard">Отвори слику из оставе</resource>
+		<resource name="contextmenu_capturefullscreen">Усликај цео екран</resource>
+		<resource name="contextmenu_capturefullscreen_all">све</resource>
+		<resource name="contextmenu_capturefullscreen_bottom">дно</resource>
+		<resource name="contextmenu_capturefullscreen_left">лево</resource>
+		<resource name="contextmenu_capturefullscreen_right">десно</resource>
+		<resource name="contextmenu_capturefullscreen_top">врх</resource>
+		<resource name="contextmenu_captureie">Усликај Интернет експлорер</resource>
+		<resource name="contextmenu_captureiefromlist">Усликај Интернет експлорер са списка</resource>
+		<resource name="contextmenu_capturelastregion">Усликај последњу област</resource>
+		<resource name="contextmenu_capturewindow">Усликај прозор</resource>
+		<resource name="contextmenu_capturewindowfromlist">Усликај прозор са списка</resource>
+		<resource name="contextmenu_donate">Подржите нас</resource>
+		<resource name="contextmenu_exit">Изађи</resource>
+		<resource name="contextmenu_help">Помоћ</resource>
+		<resource name="contextmenu_openfile">Отвори слику из датотеке…</resource>
+		<resource name="contextmenu_openrecentcapture">Отвори последње место сликања</resource>
+		<resource name="contextmenu_quicksettings">Брзе поставке</resource>
+		<resource name="contextmenu_settings">Поставке…</resource>
+		<resource name="destination_exportfailed">Грешка при увозу „{0}“. Покушајте поново.</resource>
+		<resource name="EmailFormats.Html">Аутлук са HTML-ом</resource>
+		<resource name="EmailFormats.Text">Аутлук са текстом</resource>
+		<resource name="error">Грешка</resource>
+		<resource name="error_multipleinstances">Гриншот је већ укључен.</resource>
+		<resource name="error_nowriteaccess">
+			Не могу да сачувам датотеку у {0}.
+			Проверите да ли се на изабраном складишту може писати.
+		</resource>
+		<resource name="error_openfile">Не могу да отворим датотеку „{0}“.</resource>
+		<resource name="error_openlink">Не могу да отворим везу „{0}“.</resource>
+		<resource name="error_save">Не могу да сачувам снимак екрана. Пронађите погодно место.</resource>
+		<resource name="expertsettings">Напредно</resource>
+		<resource name="expertsettings_autoreducecolors">Направи осмобитне слике које имају мање од 256 боја</resource>
+		<resource name="expertsettings_checkunstableupdates">Провери нестабилне доградње</resource>
+		<resource name="expertsettings_clipboardformats">Формати оставе:</resource>
+		<resource name="expertsettings_counter">Број за ${NUM} у називима датотека:</resource>
+		<resource name="expertsettings_enableexpert">Знам шта радим!</resource>
+		<resource name="expertsettings_footerpattern">Подножје за штампу:</resource>
+		<resource name="expertsettings_minimizememoryfootprint">Умањи отисак меморије, науштрб перформансама (не препоручује се)</resource>
+		<resource name="expertsettings_optimizeforrdp">Оптимизуј за коришћење с удаљеним рачунарима</resource>
+		<resource name="expertsettings_reuseeditorifpossible">Поново користи уређивач (ако је могуће)</resource>
+		<resource name="expertsettings_suppresssavedialogatclose">Потисни прозорче за чување по затварању уређивача</resource>
+		<resource name="expertsettings_thumbnailpreview">Умањени прикази у приручном менију (Виста и 7)</resource>
+		<resource name="exported_to">Извезено: {0}</resource>
+		<resource name="exported_to_error">Дошло је до грешке при извозу у {0}:</resource>
+		<resource name="help_title">Помоћ</resource>
+		<resource name="hotkeys">Пречице</resource>
+		<resource name="jpegqualitydialog_choosejpegquality">Изаберите JPEG квалитет за слику.</resource>
+		<resource name="OK">У реду</resource>
+		<resource name="print_error">Дошло је до грешке при штампању.</resource>
+		<resource name="printoptions_allowcenter">Центрирај испис на страници</resource>
+		<resource name="printoptions_allowenlarge">Повећај испис тако да стане на папир</resource>
+		<resource name="printoptions_allowrotate">Окрени испис према усмерењу странице</resource>
+		<resource name="printoptions_allowshrink">Смањи испис тако да стане на папир</resource>
+		<resource name="printoptions_dontaskagain">Сачувај поставке као подразумеване и не питај поново</resource>
+		<resource name="printoptions_inverted">Одштампај с обрнутим бојама</resource>
+		<resource name="printoptions_printgrayscale">Наметни штампање у сивим нијансама</resource>
+		<resource name="printoptions_timestamp">Датум/време штампања на дну странице</resource>
+		<resource name="printoptions_title">Поставке штампања</resource>
+		<resource name="qualitydialog_dontaskagain">Сачувај као подразумевани квалитет и не питај поново</resource>
+		<resource name="qualitydialog_title">Квалитет</resource>
+		<resource name="quicksettings_destination_file">Сачувај директно (уз коришћење поставки излазних датотека)</resource>
+		<resource name="settings_alwaysshowprintoptionsdialog">Прикажи поставке штампања при сваком штампању</resource>
+		<resource name="settings_alwaysshowqualitydialog">Прикажи поставке квалитета при сваком штампању</resource>
+		<resource name="settings_applicationsettings">Подешавања програма</resource>
+		<resource name="settings_autostartshortcut">Покрени програм са системом</resource>
+		<resource name="settings_capture">Сликање</resource>
+		<resource name="settings_capture_mousepointer">Усликај показивач миша</resource>
+		<resource name="settings_capture_windows_interactive">Интерактивно сликање прозора</resource>
+		<resource name="settings_checkperiod">Период за проверу доградњи у данима (0 – искључено)</resource>
+		<resource name="settings_configureplugin">Подеси…</resource>
+		<resource name="settings_copypathtoclipboard">Умножи путању датотеке при сваком чувању</resource>
+		<resource name="settings_destination">Одредиште</resource>
+		<resource name="settings_destination_clipboard">Умножи</resource>
+		<resource name="settings_destination_email">Е-пошта</resource>
+		<resource name="settings_destination_file">Сачувај директно (уз коришћење доњих поставки)</resource>
+		<resource name="settings_destination_fileas">Сачувај као (уз приказивање прозорчета)</resource>
+		<resource name="settings_destination_picker">Динамички изабери одредиште</resource>
+		<resource name="settings_destination_printer">Пошаљи штампачу</resource>
+		<resource name="settings_editor">Уређивач</resource>
+		<resource name="settings_filenamepattern">Образац за називе:</resource>
+		<resource name="settings_general">Опште</resource>
+		<resource name="settings_iecapture">Сликање Интернет експлорера</resource>
+		<resource name="settings_jpegquality">JPEG квалитет</resource>
+		<resource name="settings_language">Језик:</resource>
+		<resource name="settings_message_filenamepattern">
+			Следећи чувари места биће аутоматски замењени у наведеном обрасцу:
+			${YYYY} година, 4 цифре
+			${MM} година, 2 цифре
+			${DD} дан, 2 цифре
+			${hh} сат, 2 цифре
+			${mm} минут, 2 цифре
+			${ss} секунд, 2 цифре
+			${NUM} увећавајући број, 6 цифара
+			${title} наслов прозора
+			${user} Виндоусов корисник
+			${domain} Виндоусов домен
+			${hostname} назив рачунара
+
+			Гриншот може и да аутоматски прави фасцикле.
+			Користите обрнуту косу црту (\) да раздвојите фасцикле и називе датотека.
+			Примерице, образац ${DD}. ${MM}. ${YYYY}\${hh}.${mm}.${ss}
+			створиће фасциклу за текући дан у подразумеваном складишту, нпр. 29. 6. 2008., а садржани назив слике биће 11_58_32 (уз екстензију коју сте наместили у подешавањима).
+		</resource>
+		<resource name="settings_network">Мрежа и доградње</resource>
+		<resource name="settings_output">Излаз</resource>
+		<resource name="settings_playsound">Пусти звук камере</resource>
+		<resource name="settings_plugins">Прикључци</resource>
+		<resource name="settings_plugins_createdby">Направио</resource>
+		<resource name="settings_plugins_dllpath">Путања DLL-а</resource>
+		<resource name="settings_plugins_name">Назив</resource>
+		<resource name="settings_plugins_version">Верзија</resource>
+		<resource name="settings_preferredfilesettings">Поставке излазних датотека</resource>
+		<resource name="settings_primaryimageformat">Формат слике:</resource>
+		<resource name="settings_printer">Штампач</resource>
+		<resource name="settings_printoptions">Поставке штампања</resource>
+		<resource name="settings_qualitysettings">Поставке квалитета</resource>
+		<resource name="settings_reducecolors">Смањи износ боја на највише 256</resource>
+		<resource name="settings_registerhotkeys">Додели пречице</resource>
+		<resource name="settings_showflashlight">Прикажи батеријску лампу</resource>
+		<resource name="settings_shownotify">Прикажи обавештења</resource>
+		<resource name="settings_storagelocation">Место складишта:</resource>
+		<resource name="settings_title">Подешавања</resource>
+		<resource name="settings_tooltip_filenamepattern">Образац који се користи за стварање назива датотека при чувању слика.</resource>
+		<resource name="settings_tooltip_language">Језик корисничког окружења програма.</resource>
+		<resource name="settings_tooltip_primaryimageformat">Подразумевани формат слике.</resource>
+		<resource name="settings_tooltip_registerhotkeys">Одређује да ли су пречице Print, Ctrl + Print и Alt + Print заузете за друге програме при покретању Гриншота, па све до његовог искључивања.</resource>
+		<resource name="settings_tooltip_storagelocation">Подразумевано место за снимке екрана (оставите празно ради чувања на радној површини).</resource>
+		<resource name="settings_usedefaultproxy">Подразумевани мрежни посредник система</resource>
+		<resource name="settings_visualization">Ефекти</resource>
+		<resource name="settings_waittime">— број милисекунди пре сликања</resource>
+		<resource name="settings_window_capture_mode">Режим сликања прозора</resource>
+		<resource name="settings_windowscapture">Сликање прозора</resource>
+		<resource name="tooltip_firststart">Кликните десни клик или притисните тастер {0}.</resource>
+		<resource name="update_found">Доступна је нова верзија програма. Желите ли да преузмете Гриншот {0}?</resource>
+		<resource name="wait_ie_capture">Сачекајте док се страница у Интернет експлореру не слика…</resource>
+		<resource name="warning">Упозорење</resource>
+		<resource name="warning_hotkeys">
+			Не могу да доделим пречицу „{0}“. Узрок томе је вероватно други програм који користи исту пречицу.
+
+			Све могућности програма још увек раде директно из приручног менија у системској траци.
+		</resource>
+		<resource name="WindowCaptureModes.Aero">користи прилагођену боју</resource>
+		<resource name="WindowCaptureModes.AeroTransparent">задржи провидност</resource>
+		<resource name="WindowCaptureModes.Auto">аутоматски</resource>
+		<resource name="WindowCaptureModes.GDI">подразумевана боја</resource>
+		<resource name="WindowCaptureModes.Screen">као што је приказано</resource>
+	</resources>
+</language>

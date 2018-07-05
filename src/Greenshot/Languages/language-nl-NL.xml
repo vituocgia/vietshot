@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<language>
+	<resources prefix="Core">
+		<resource name="about_bugs">Meld problemen bij</resource>
+		<resource name="about_donations">Als U Greenshot goed vindt kunt U ons ondersteunen:</resource>
+		<resource name="about_host">Greenshot word gehost door GitHub op</resource>
+		<resource name="about_icons">Iconen van de icon set van Yusuke Kamiyamane's Fugue (Creative Commons Attribution 3.0 license)</resource>
+		<resource name="about_license">
+			Copyright (C) 2007-2018 Thomas Braun, Jens Klingen, Robin Krom
+			Greenshot komt zonder enige garantie! Dit is gratis software, en U kunt het distribueren onder bepaalde voorwaarden.
+			Details over de GNU General Public License:
+		</resource>
+		<resource name="about_title">Over Greenshot</resource>
+		<resource name="about_translation">Nederlandse vertaling door Jurjen Ladenius en Thomas Smid</resource>
+		<resource name="application_title">Greenshot - de revolutionaire screenshot utility</resource>
+		<resource name="bugreport_cancel">Sluiten</resource>
+		<resource name="bugreport_info">
+			Sorry, er is een onverwachte fout opgetreden.
+			Het goede nieuws is dat U ons kan helpen om dit probleem op te lossen!
+			Bezoek de onderstaande URL, maak een "bug report" aan en plak de inhoud van de volgende text in de probleembeschrijving.
+			Het helpt nog meer als U beschrijft hoe het probleem tot stand is gekomen en ook gegevens over uw systeem geeft.
+			We stellen het zeer op prijs als u eerst kijkt of dit probleem misschien al gemeld is!
+			Gebruik de zoekfunctie om bekende foutmeldingen snel te vinden. Hartelijk bedankt! ;-)
+		</resource>
+		<resource name="bugreport_title">Fout</resource>
+		<resource name="CANCEL">Annuleren</resource>
+		<resource name="clipboard_error">Tijdens het kopiëren naar het klembord is een onverwachte fout opgetreden.</resource>
+		<resource name="clipboard_inuse">Greenshot kon niet naar het klembord kopiëren omdat het proces {0} de actie geblokkeerd heeft.</resource>
+		<resource name="ClipboardFormats.DIB">Apparaat onafhankelijk beeld (DIB)</resource>
+		<resource name="ClipboardFormats.HTML">HTML</resource>
+		<resource name="ClipboardFormats.HTMLDATAURL">HTML met ingebouwde beelden</resource>
+		<resource name="ClipboardFormats.PNG">PNG</resource>
+		<resource name="colorpicker_alpha">Alpha</resource>
+		<resource name="colorpicker_apply">Toepassen</resource>
+		<resource name="colorpicker_blue">Blauw</resource>
+		<resource name="colorpicker_green">Groen</resource>
+		<resource name="colorpicker_htmlcolor">HTML kleur</resource>
+		<resource name="colorpicker_recentcolors">Pas gebruikte kleuren</resource>
+		<resource name="colorpicker_red">Rood</resource>
+		<resource name="colorpicker_title">Kleur kiezen</resource>
+		<resource name="colorpicker_transparent">Doorzichtig</resource>
+		<resource name="config_unauthorizedaccess_write">Kan het Greenshot configuratie bestand niet schrijven. Controleer de bestandstoegang voor '{0}'.</resource>
+		<resource name="contextmenu_about">Over Greenshot</resource>
+		<resource name="contextmenu_capturearea">Regio vastleggen</resource>
+		<resource name="contextmenu_captureclipboard">Laad beeld van het klembord</resource>
+		<resource name="contextmenu_capturefullscreen">Gehele beeldscherm vastleggen</resource>
+		<resource name="contextmenu_capturefullscreen_all">alles</resource>
+		<resource name="contextmenu_capturefullscreen_bottom">onder</resource>
+		<resource name="contextmenu_capturefullscreen_left">links</resource>
+		<resource name="contextmenu_capturefullscreen_right">rechts</resource>
+		<resource name="contextmenu_capturefullscreen_top">boven</resource>
+		<resource name="contextmenu_captureie">Internet Explorer pagina vastleggen</resource>
+		<resource name="contextmenu_captureiefromlist">Internet Explorer pagina uit de lijst vastleggen</resource>
+		<resource name="contextmenu_capturelastregion">Laatst gebruikte regio vastleggen</resource>
+		<resource name="contextmenu_capturewindow">Window vastleggen</resource>
+		<resource name="contextmenu_capturewindowfromlist">Window uit de lijst vastleggen</resource>
+		<resource name="contextmenu_donate">Greenshot ondersteunen</resource>
+		<resource name="contextmenu_exit">Exit</resource>
+		<resource name="contextmenu_help">Help</resource>
+		<resource name="contextmenu_openfile">Open beeld uit bestand</resource>
+		<resource name="contextmenu_openrecentcapture">Open laatste screenshot locatie</resource>
+		<resource name="contextmenu_quicksettings">Snelle instellingen</resource>
+		<resource name="contextmenu_settings">Voorkeuren...</resource>
+		<resource name="EmailFormats.Html">Outlook met HTML</resource>
+		<resource name="EmailFormats.Text">Outlook met tekst</resource>
+		<resource name="error">Fout</resource>
+		<resource name="error_multipleinstances">Greenshot is al gestart.</resource>
+		<resource name="error_nowriteaccess">
+			Kan bestand niet opslaan naar {0}.
+			Controleer AUB de schrijf permissies voor de locatie.
+		</resource>
+		<resource name="error_openfile">Het bestand "{0}" kan niet gelezen worden.</resource>
+		<resource name="error_openlink">Kan link '{0}' niet openen.</resource>
+		<resource name="error_save">Kan screenshot niet opslaan, kies AUB een nieuwe locatie.</resource>
+		<resource name="expertsettings">Expert</resource>
+		<resource name="expertsettings_autoreducecolors">Maak een 8-bit beeld als er minder als 256 kleuren zijn en het beeld is &gt; 8 bit.</resource>
+		<resource name="expertsettings_checkunstableupdates">Controleer bij updates ook op instabiele versies.</resource>
+		<resource name="expertsettings_clipboardformats">Klembord formaten</resource>
+		<resource name="expertsettings_counter">Het ${NUM} nummer in de bestandsnaam</resource>
+		<resource name="expertsettings_enableexpert">Ik weet wat ik doe!</resource>
+		<resource name="expertsettings_footerpattern">Voetnoot onder print</resource>
+		<resource name="expertsettings_minimizememoryfootprint">Verminder het zichtbare geheugen gebruik, maakt Greenshot langzamer</resource>
+		<resource name="expertsettings_optimizeforrdp">Optimaliseer voor Remote Desktop gebruik</resource>
+		<resource name="expertsettings_suppresssavedialogatclose">Onderdruk de opslaan vraag bij het sluiten van de editor</resource>
+		<resource name="expertsettings_thumbnailpreview">Laat voorbeelden zien bij het vastleggen van Windows via het context menu</resource>
+		<resource name="exported_to">Exporteert naar: {0}</resource>
+		<resource name="help_title">Greenshot Help</resource>
+		<resource name="hotkeys">Sneltoetsen</resource>
+		<resource name="jpegqualitydialog_choosejpegquality">Kies AUB de kwaliteit voor uw JPEG beeld.</resource>
+		<resource name="OK">Ok</resource>
+		<resource name="print_error">Er is een fout opgetreden tijdens het printen</resource>
+		<resource name="printoptions_allowcenter">Centreer afdruk op papier</resource>
+		<resource name="printoptions_allowenlarge">Vergroot afdruk en pas aan de papiergrootte aan</resource>
+		<resource name="printoptions_allowrotate">Roteer afdruk en pas aan het papier aan</resource>
+		<resource name="printoptions_allowshrink">Verklein afdruk en pas aan de papiergrootte aan</resource>
+		<resource name="printoptions_dontaskagain">Sla afdrukvoorkeuren op als standaard en vraag niet opnieuw</resource>
+		<resource name="printoptions_inverted">Kleuren omkeren</resource>
+		<resource name="printoptions_printgrayscale">Maak afdruk in grijstinten</resource>
+		<resource name="printoptions_timestamp">Datum / tijd onder aan de pagina printen</resource>
+		<resource name="printoptions_title">Greenshot afdrukvoorkeuren</resource>
+		<resource name="qualitydialog_dontaskagain">Opslaan met de standaard kwaliteit en niet meer vragen</resource>
+		<resource name="qualitydialog_title">Greenshot kwaliteit</resource>
+		<resource name="quicksettings_destination_file">Direct opslaan (met de standaard opslaan instellingen)</resource>
+		<resource name="settings_alwaysshowprintoptionsdialog">Toon afdrukvoorkeuren iedere keer wanneer een beeld wordt afdrukt</resource>
+		<resource name="settings_alwaysshowqualitydialog">Vraag iedere keer dat een beeld opgeslagen wordt om de beeldkwaliteit</resource>
+		<resource name="settings_applicationsettings">Applicatie instellingen</resource>
+		<resource name="settings_autostartshortcut">Start Greenshot wanneer Windows opstart</resource>
+		<resource name="settings_capture">Vastleggen</resource>
+		<resource name="settings_capture_mousepointer">Muisaanwijzer vastleggen</resource>
+		<resource name="settings_capture_windows_interactive">Interactief windows (delen) vastleggen</resource>
+		<resource name="settings_checkperiod">Versie update controle interval in dagen (0=geen controle)</resource>
+		<resource name="settings_configureplugin">Instellingen</resource>
+		<resource name="settings_copypathtoclipboard">Bestandslocatie naar het klembord kopiëren als een beeld opgeslagen wordt</resource>
+		<resource name="settings_destination">Screenshot doel</resource>
+		<resource name="settings_destination_clipboard">Kopieer naar klembord</resource>
+		<resource name="settings_destination_email">E-Mail</resource>
+		<resource name="settings_destination_file">Direct opslaan (gebruik de instellingen hieronder)</resource>
+		<resource name="settings_destination_fileas">Opslaan als (laat dialoog zien)</resource>
+		<resource name="settings_destination_picker">Dynamisch het doel kiezen</resource>
+		<resource name="settings_destination_printer">Stuur naar printer</resource>
+		<resource name="settings_editor">Beeld bewerken</resource>
+		<resource name="settings_filenamepattern">Bestandsnaam patroon</resource>
+		<resource name="settings_general">Algemeen</resource>
+		<resource name="settings_iecapture">Internet Explorer vastleggen</resource>
+		<resource name="settings_jpegquality">JPEG kwaliteit</resource>
+		<resource name="settings_language">Taal</resource>
+		<resource name="settings_message_filenamepattern">
+			De volgende variabelen worden automatisch vervangen in het ingestelde patroon:
+			${YYYY} jaar, 4 cijfers
+			${MM} maand, 2 cijfers
+			${DD} dag, 2 cijfers
+			${hh} uur, 2 cijfers
+			${mm} minuut, 2 cijfers
+			${ss} seconde, 2 cijfers
+			${NUM} oplopend nummer, 6 cijfers
+			${title} venster titel
+			${user} Windows gebruikersnaam
+			${domain} Windows domein
+			${hostname} PC naam
+			U kunt ook Greenshot automatisch directories laten aanmaken door eenvoudig een backslash symbool (\) te gebruiken.
+			Voorbeeld: Het patroon ${YYYY}-${MM}-${DD}\${hh}-${mm}-${ss}
+			genereert een directorie voor de huidige dag in uw standaard opslag lokatie, b.v. 2008-06-29, de naam van het bestand heeft dan de tijd
+			, b.v. 11-58-32 (plus de extensie zoals in de voorkeursinstellingen staat)
+		</resource>
+		<resource name="settings_network">Netwerk en bijwerken</resource>
+		<resource name="settings_output">Uitvoer</resource>
+		<resource name="settings_playsound">Speel camera geluid</resource>
+		<resource name="settings_plugins">Uitbreidingen</resource>
+		<resource name="settings_preferredfilesettings">Voorkeursinstellingen voor opslaan van bestanden</resource>
+		<resource name="settings_primaryimageformat">Beeld formaat</resource>
+		<resource name="settings_printer">Printer</resource>
+		<resource name="settings_printoptions">Afdrukvoorkeuren</resource>
+		<resource name="settings_qualitysettings">Kwaliteit instellingen</resource>
+		<resource name="settings_reducecolors">Verminder het aantal kleuren tot maximaal 256</resource>
+		<resource name="settings_registerhotkeys">Registreer Hotkeys</resource>
+		<resource name="settings_showflashlight">Toon flits</resource>
+		<resource name="settings_shownotify">Toon notificaties</resource>
+		<resource name="settings_zoom">Toon vergrootglas</resource>
+		<resource name="settings_storagelocation">Opslag locatie</resource>
+		<resource name="settings_title">Voorkeursinstellingen</resource>
+		<resource name="settings_tooltip_filenamepattern">Patroon voor het produceren van bestandsnamen van opgeslagen screenshots</resource>
+		<resource name="settings_tooltip_language">Taal voor de Greenshot gebruikersinterface</resource>
+		<resource name="settings_tooltip_primaryimageformat">Standaard beeld formaat</resource>
+		<resource name="settings_tooltip_registerhotkeys">Definieert of the shortcuts Prnt, Ctrl + Print, Alt + Prnt door Greenshot gereserveerd worden.</resource>
+		<resource name="settings_tooltip_storagelocation">Locatie waar screenshots standaard opgeslagen worden (leeg laten voor de desktop)</resource>
+		<resource name="settings_usedefaultproxy">Gebruik de standaard systeem proxy</resource>
+		<resource name="settings_visualization">Effects</resource>
+		<resource name="settings_waittime">Milliseconden wachten voor vastleggen</resource>
+		<resource name="settings_window_capture_mode">Window vastleg mode</resource>
+		<resource name="settings_windowscapture">Window vastleggen</resource>
+		<resource name="tooltip_firststart">Klik hier met de rechter muis knop of druk op de {0} knop.</resource>
+		<resource name="update_found">Er is een nieuwere versie van Greenshot beschikbaar! Wilt U Greenshot {0} downloaden?</resource>
+		<resource name="wait_ie_capture">Wacht terwijl de Internet Explorer pagina wordt vastgelegd...</resource>
+		<resource name="warning">Waarschuwing</resource>
+		<resource name="warning_hotkeys">
+			De hotkeys "{0}" kunnen niet geregistreerd worden. Dit probleem komt waarschijnlijk doordat een andere applicatie deze hotkeys al gebruikt. U kunt de hotkeys instellingen van Greenshot veranderen of de andere applicatie stoppen/veranderen.
+
+			Alle Greenshot functies werken ook over het context menu.
+		</resource>
+		<resource name="WindowCaptureModes.Aero">Eigen kleur</resource>
+		<resource name="WindowCaptureModes.AeroTransparent">Met doorzichtigheid</resource>
+		<resource name="WindowCaptureModes.Auto">Automatisch</resource>
+		<resource name="WindowCaptureModes.GDI">Standaard kleur</resource>
+		<resource name="WindowCaptureModes.Screen">Zoals zichtbaar</resource>
+
+		<resource name="settings_iconsize">Pictogram grootte</resource>
+	</resources>
+</language>
